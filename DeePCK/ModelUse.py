@@ -519,6 +519,38 @@ class ModelUse():
         state_names = ['T', 'P']+self.gas.species_names
         name=self._latexStyle(state_names[index]) if find_executable('latex') else state_names[index]
         return name
+    
+    def convert2TorchScript(self, modelname, epoch, scriptname=''):
+        r"""
+        Convert a pytorch-format  `.pt` file to torch script format for usage in libtorch (C++).
+        
+        Parameters
+        -----------
+        modelname : str
+            The folder name of DNN model.
+        epoch : int
+            Epoch for loading checkpoint.
+        scriptname : str
+            The filename for torch script format `.pt`. 
+    
+        Returns
+        -------
+            The torch script format `.pt` will be saved.
+
+        """
+        self.loadModel(modelname, epoch)
+        dim = self.args["dim"]
+        example = torch.ones(1, dim)
+        # print("net(x): ", self.net(example))
+        traced_script_module = torch.jit.trace(self.net, example)
+        if scriptname == '':
+            script_path = os.path.join('Model', modelname, "checkpoint",
+                                       f"script_model{epoch}.pt")
+        else:
+            script_path = os.path.join('Model', modelname, "checkpoint",
+                                       f"{scriptname}.pt")
+        traced_script_module.save(script_path)
+        print(f"torch script saved in {script_path}")
 
 
 
