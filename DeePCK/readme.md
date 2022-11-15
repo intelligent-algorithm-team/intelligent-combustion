@@ -20,6 +20,7 @@ This open project will release various models based on our algorithms.
 
 ### C++ Env
 - set  `modelname` and `epoch`, run the following code for instance.
+
     ```python
     from ModelUse import ModelUse
     model = ModelUse()
@@ -27,7 +28,7 @@ This open project will release various models based on our algorithms.
     epoch = 5000
     model.convert2TorchScript(modelname, epoch)
     ```
- - Then the corresponding torch script `.pt` file will be saved in the sub-fold `Model/$(modelname)/checkpoint`.
+ - Then the corresponding torch script `.pt` file will be saved in the sub-fold `Model/$(modelname)/checkpoint/`.
 
 ## Navigation of models
 
