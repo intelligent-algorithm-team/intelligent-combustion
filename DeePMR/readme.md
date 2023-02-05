@@ -1,6 +1,6 @@
 # DeePMR
 
-DeePMR is one taks of the DeepCombustion project.  
+DeePMR is one task of the DeepCombustion project.  
 DeePMR: DeeP Model Reduction, develop DNN-based algorithms for reducing chemical reaction mechanisms.
 
 ## Content of Models
