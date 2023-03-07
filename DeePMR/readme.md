@@ -1,6 +1,6 @@
 # DeePMR
 
-DeePMR is one task of the DeepCombustion project.  
+DeePMR is one taks of the DeepCombustion project.  
 DeePMR: DeeP Model Reduction, develop DNN-based algorithms for reducing chemical reaction mechanisms.
 
 ## Content of Models
@@ -11,6 +11,8 @@ This is a brief description of our reduced kinetic model, check the file readme.
 | Model | Detailed Mechanism | Reduced<br>Species/Reactions | Detailed<br>Species/Reactions |
 | :---: | :----: | :----: | :----: |
 | [C701][4]  |  [Dryer_116sp_PRF][1]  |35/192 | 116/830 |
+| [C702][5]  |  [LLNL_648sp_gasoline_surrogate][2]   |54/419 | 648/4846 |
+| [C801][6]  |  [GMIT_857sp_iso-octane][3]   |46/301 | 857/6480 |
 
 
 ## Citation
