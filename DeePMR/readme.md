@@ -52,5 +52,5 @@ We now have a [paper](https://arxiv.org/abs/2201.02025) you can cite for the red
 [C701]:C701_Dryer_n-heptane_116sp_35sp_221017
 [C702]:C702_LLNL_n-heptane_648sp_54sp_221014
 [C703]:C703_LLNL_n-heptane_648sp_49sp_221027
-[C704]:C703_LLNL_n-heptane_648sp_41sp_230307
+[C704]:C704_LLNL_n-heptane_648sp_41sp_230307
 [C801]:C801_GMIT_iso-octane_857sp_46sp_221015
