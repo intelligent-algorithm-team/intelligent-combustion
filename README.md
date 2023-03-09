@@ -15,11 +15,13 @@ This open project will release various models based on our algorithms.
 
 ## About the team
 
-### Team Leaders (alphabetical order)
+### Advisors (alphabetical order)
 
-- **Zhi-Qin John Xu**, associate Professor, Institute of Natural Sciences/School of Mathematical Sciences, Shanghai Jiao Tong University. Homepage: https://ins.sjtu.edu.cn/people/xuzhiqin and Email: xuzhiqin@sjtu.edu.cn
+- **Zhi-Qin John Xu**, associate professor, Institute of Natural Sciences/School of Mathematical Sciences, Shanghai Jiao Tong University. Homepage: https://ins.sjtu.edu.cn/people/xuzhiqin and Email: xuzhiqin@sjtu.edu.cn
 
 - **Tianhan Zhang**, assistant professor and doctoral supervisor in the Department of Mechanics and Aerospace Engineering at Southern University of Science and Technology, and a researcher at the AI for Science Institute, Beijing. Homepage: https://faculty.sustech.edu.cn/zhangth and Email: zhangth@sustech.edu.cn
+
+- **Tong Zhu**, professor, School of Chemistry and Molecular Engineering, East China Normal University. Homepage: https://faculty.ecnu.edu.cn/_s34/zt2/main.psp and Email: tzhu@lps.ecnu.edu.cn
 
 ### Collaborators (alphabetical order)
 
@@ -33,8 +35,6 @@ This open project will release various models based on our algorithms.
 
 - Chenyang Ren (Shanghai Jiao Tong University)
 
-- Siyuan Shen (Shanghai Jiao Tong University)
-
 - Zhiwei Wang (Shanghai Jiao Tong University)
 
 - Junjie Yao (Shanghai Jiao Tong University)
@@ -44,6 +44,4 @@ This open project will release various models based on our algorithms.
 - Xumeng Zhang (Shanghai Jiao Tong University)
 
 - Enhan Zhao (Peking University)
-
-- Changquan Zhao (Shanghai Jiao Tong University)
 
