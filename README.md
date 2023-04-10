@@ -1,4 +1,4 @@
-# Deep Combustion
+# Intelligent Combustion
 
 The project of `DeepCombustion` is to develop algorithms based on deep learning for combustion study. Currently, we have two specific tasks. 
 
