@@ -1,11 +1,11 @@
 # DeePMR
+Fuel chemistry represents a typical complex system involving thousands of intermediate species and elementary reactions. Traditional mechanism reduction methods, such as sensitivity analysis and graph-based approaches, fail to explore global correlations of the sub-systems, thereby compromising their efficiency and accuracy. A novel machine learning-based approach called deep mechanism reduction (DeePMR) has been developed to address this issue. The current method transforms mechanism reduction into an optimization problem in the combinatorial space of chemical species while mitigating the curse of dimensionality inherent in the high-dimensional space. We propose an iterative sampling–training–predicting strategy combining deep neural networks with genetic algorithms to learn the landscape of the combinatorial space and locate the targeted subspace. Applying DeePMR to fuel chemistry mechanisms has led to much more compact mechanisms than traditional methods, including directed relation graph (DRG) or path flux analysis (PFA) methods, with three to four orders of magnitude acceleration in numerical simulation. In addition, reduced mechanisms by DeePMR indicate a principal-satellite formulation for constructing chemical reaction mechanisms, providing a straightforward yet effective alternative to hierarchy-based construction methods. The DeePMR method provides a general framework for model reduction across various fields.
 
-DeePMR is one task of the DeepCombustion project.  
-DeePMR: DeeP Model Reduction, develop DNN-based algorithms for reducing chemical reaction mechanisms.
+We shared all reduced models in the current repo. 
 
 ## Content of Models
 
-This is a brief description of our reduced kinetic model, check the file readme.md in each sub-folder for detailed infomation.
+This is a brief description of our reduced kinetic models; check the file `readme.md` in each sub-folder for detailed information.
 
 
 | Model | Detailed Mechanism | Reduced<br>Species/Reactions | Detailed<br>Species/Reactions |
@@ -25,15 +25,16 @@ This is a brief description of our reduced kinetic model, check the file readme.
 
 
 ## Citation
-
-We now have a [paper](https://arxiv.org/abs/2201.02025) you can cite for the reduced model library:
-
+Please cite: 
 ```
-@article{wang2022deep,
-  title={A deep learning-based model reduction (DeePMR) method for simplifying chemical kinetics},
-  author={Wang, Zhiwei and Zhang, Yaoyu and Ju, Yiguang and Xu, Zhi-Qin John and Zhang, Tianhan},
-  journal={arXiv preprint arXiv:2201.02025},
-  year={2022}
+@article{wang2024deep,
+  title={Deep mechanism reduction (DeePMR) method for fuel chemical kinetics},
+  author={Wang, Zhiwei and Zhang, Yaoyu and Lin, Pengxiao and Zhao, Enhan and Weinan, E and Zhang, Tianhan and Xu, Zhi-Qin John},
+  journal={Combustion and Flame},
+  volume={261},
+  pages={113286},
+  year={2024},
+  publisher={Elsevier}
 }
 ```
 
