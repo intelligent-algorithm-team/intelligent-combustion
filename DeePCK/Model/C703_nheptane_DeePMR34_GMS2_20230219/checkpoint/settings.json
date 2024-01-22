@@ -1,0 +1,26 @@
+{
+    "batch_size":1024,
+    "valid_batch_size":8192,
+    "power_transform":0.1,
+    "delta_t":1e-06,
+    "dim":36,
+    "layers":[
+        36,
+        3200,
+        1600,
+        800,
+        400,
+        36
+    ],
+    "net_type":"fc",
+    "actfun":"CustomGELU",
+    "max_epoch":5000,
+    "epoch_decay":1000,
+    "learnrate":0.0001,
+    "lr_decay_rate":0.1,
+    "batch_grow_rate":128,
+    "lossfun":"L1",
+    "optim":"Adam",
+    "modelname":"C703_nheptane_DeePMR34sp_GMS2_20230219",
+    "model_path":"Model/C703_nheptane_DeePMR34sp_GMS2_20230219"
+}

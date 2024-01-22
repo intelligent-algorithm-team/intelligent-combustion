@@ -1,0 +1,26 @@
+{
+    "batch_size":1024,
+    "valid_batch_size":8192,
+    "power_transform":0.1,
+    "delta_t":1e-06,
+    "dim":23,
+    "layers":[
+        23,
+        3200,
+        1600,
+        800,
+        400,
+        23
+    ],
+    "net_type":"fc",
+    "actfun":"CustomGELU",
+    "max_epoch":10000,
+    "epoch_decay":1000,
+    "learnrate":0.0001,
+    "lr_decay_rate":0.1,
+    "batch_grow_rate":128,
+    "lossfun":"L1",
+    "optim":"Adam",
+    "modelname":"MD12_Methane_drm19_GMS0_20230328",
+    "model_path":"Model/MD12_Methane_drm19_GMS0_20230328"
+}
