@@ -26,7 +26,7 @@ This is a brief description of our reduced kinetic models; check the file `readm
 
 ## DeePMR-reduced mechanisms for supersonic combustion
 
-The detailed ethylene oxidation mechanism with 57 species and 269 reactions was reduced via DeePMR method with different indicators, and further validated in the practical supersonic combustion. See [HisCFOAM] for more information.
+The detailed ethylene oxidation mechanism with 57 species and 269 reactions was reduced via DeePMR method with different indicators, and further validated in the practical supersonic combustion. See [HiSCFOAM] for more information.
 
 ## Citation
 Please cite: 
